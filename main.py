@@ -1,8 +1,8 @@
 from demo import WareHouseDemo, RomeoAndJulietDemo, ExponentialDistributionDemo
 
 if __name__ == '__main__':
-    print("Random exponential demo")
-    randomExponentialDemo = ExponentialDistributionDemo(minSupport=0.01, error=0.001)
+    print("Random Pareto Distribuition demo")
+    randomExponentialDemo = ParetoDistributionDemo(minSupport=0.01, error=0.001)
     randomExponentialDemo.start()
     randomExponentialDemo.printOutput()
     print("-----------------------------------------\n")
