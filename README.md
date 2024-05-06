@@ -15,7 +15,7 @@ to run the included demos
 2. enter the lossy-counting folder
 to run the example you have to have install python3 on your machine
 then simply run python3 main.py
-Included demos:
-pareto distribuition demo - with samples drawn from the pareto distribution
-web data demo - with samples from logs of anonymous users of www.microsoft.com
-paradise demo - with word frequencies from the third and final part of Dante's Divine Comedy
+# Included demos:
+1. pareto distribuition demo - with samples drawn from the pareto distribution
+2. web data demo - with samples from logs of anonymous users of www.microsoft.com
+3. paradise demo - with word frequencies from the third and final part of Dante's Divine Comedy
