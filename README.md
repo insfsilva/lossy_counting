@@ -1,21 +1,23 @@
-# lossy_counting
-Implementation of the lossy counting algorithm for purposes of Data Stream course at University of Porto
+# Lossy_counting: Implementation Overview
+This codebase embodies the lossy counting algorithm, developed specifically for the Data Stream course at the University of Porto.
 
-## How to work with the implementation
-The whole algorithm is implemented in the single python file lossy_counting.py. The example of use of the LossyCounting class can be seen in the demo.py file General use of the implementation:
+# Utilizing the Implementation
+The entire algorithm resides within the lossy_counting.py Python file. For a demonstration of how to employ the LossyCounting class, refer to demo.py.
 
-1. create LossyCounting class with parameters:
-minSupport - minimal support of all items in the results
-error - maximal error in the results
-2. process stream by calling LossyCounting().processNextElement(element)
-3. get results by calling the method LossyCounting().getFrequentItems()
-# Run example
-to run the included demos
-1. extract the zip file
-2. enter the lossy-counting folder
-to run the example you have to have install python3 on your machine
-then simply run python3 main.py
-# Included demos:
-1. pareto distribuition demo - with samples drawn from the pareto distribution
-2. web data demo - with samples from logs of anonymous users of www.microsoft.com
-3. paradise demo - with word frequencies from the third and final part of Dante's Divine Comedy
+# Instantiate the LossyCounting class with the following parameters:
+. minSupport: Minimum support required for all items in the results.
+. error: Maximum acceptable error in the results.
+1. Stream data through the algorithm using LossyCounting().processNextElement(element).
+2. Retrieve results via the LossyCounting().getFrequentItems() method.
+3. Running Examples
+
+#To execute the provided demos:
+
+1. Unzip the file.
+2. Navigate to the lossy_counting folder.
+Ensure Python 3 is installed on your machine.
+3. Run python3 main.py.
+# Demo Contents:
+1. Pareto Distribution Demo: Samples drawn from the Pareto distribution.
+2. Web Data Demo: Samples sourced from logs of anonymous users on www.microsoft.com.
+3. Paradise Demo: Word frequencies from the third and final part of Dante's Divine Comedy
