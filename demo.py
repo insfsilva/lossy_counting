@@ -45,7 +45,7 @@ class WareHouseDemo(Demo):
                 line = file.readline()
 
 
-class Paradise(Demo):
+class ParadiseDemo(Demo):
     def start(self):
         with open("paradise.txt") as file:
             line = file.readline()
