@@ -23,11 +23,13 @@ class Demo:
         print("Exact frequencies: " + str(sortedExactCounter))
 
 
-class ExponentialDistributionDemo(Demo):
+class ParetoDistributionDemo(Demo):
     def start(self):
         numberOfElements = 1000000
+        shape = 2.0  # Forma da distribuição de Pareto
+        scale = 1.0  # Escala da distribuição de Pareto
         for i in range(numberOfElements):
-            randomElement = round(np.random.exponential(scale=0.5))
+            randomElement = round(np.random.pareto(shape) * scale)
             self.lossyCounter.processNextElement(randomElement)
             self.exactCounter.processNextElement(randomElement)
 
