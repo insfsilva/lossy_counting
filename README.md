@@ -5,8 +5,8 @@ This codebase embodies the lossy counting algorithm, developed specifically for 
 The entire algorithm resides within the lossy_counting.py Python file. For a demonstration of how to employ the LossyCounting class, refer to demo.py.
 
 # Instantiate the LossyCounting class with the following parameters:
-. minSupport: Minimum support required for all items in the results.
-. error: Maximum acceptable error in the results.
+- minSupport: Minimum support required for all items in the results.
+- error: Maximum acceptable error in the results.
 1. Stream data through the algorithm using LossyCounting().processNextElement(element).
 2. Retrieve results via the LossyCounting().getFrequentItems() method.
 3. Running Examples
