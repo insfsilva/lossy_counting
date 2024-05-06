@@ -13,8 +13,8 @@ if __name__ == '__main__':
     wareHouseDemo.printOutput()
     print("-----------------------------------------\n")
 
-    print("Romeo and Juliet demo")
-    romeoAndJulietDemo = RomeoAndJulietDemo(minSupport=0.01, error=0.001)
-    romeoAndJulietDemo.start()
-    romeoAndJulietDemo.printOutput()
+    print("Paradise, The Divine Comedy")
+    paradiseDemo = ParadiseDemo(minSupport=0.01, error=0.001)
+    paradiseDemo.start()
+    paradiseDemo.printOutput()
     print("-----------------------------------------\n")
