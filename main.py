@@ -7,8 +7,8 @@ if __name__ == '__main__':
     randomExponentialDemo.printOutput()
     print("-----------------------------------------\n")
 
-    print("Warehouse demo")
-    wareHouseDemo = WareHouseDemo(minSupport=0.01, error=0.001)
+    print("Web Data Demo")
+    wareHouseDemo = WebDataDemo(minSupport=0.01, error=0.001)
     wareHouseDemo.start()
     wareHouseDemo.printOutput()
     print("-----------------------------------------\n")
