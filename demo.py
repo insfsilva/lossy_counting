@@ -34,9 +34,9 @@ class ParetoDistributionDemo(Demo):
             self.exactCounter.processNextElement(randomElement)
 
 
-class WareHouseDemo(Demo):
+class WebDataDemo(Demo):
     def start(self):
-        with open("retail.dat") as file:
+        with open("anonymous-msweb.data") as file:
             line = file.readline()
             while line:
                 line = line.strip(' \n')
