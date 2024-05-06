@@ -45,9 +45,9 @@ class WareHouseDemo(Demo):
                 line = file.readline()
 
 
-class RomeoAndJulietDemo(Demo):
+class Paradise(Demo):
     def start(self):
-        with open("romeoAndJuliet.txt") as file:
+        with open("paradise.txt") as file:
             line = file.readline()
             while line:
                 line = line.lower()
